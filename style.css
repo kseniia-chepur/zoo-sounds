@@ -1,0 +1,58 @@
+:root {
+  --accent-color: #d4f70f;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 2.5rem auto;
+  padding: 0;
+  font-family: 'Bree Serif', serif; 
+  background: url('images/bg.jpg') 0 0;
+  background-size: cover;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  font-size: 1.5rem;
+  border-radius: .6rem;
+  margin: 1rem; 
+  padding: 1rem .5rem;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background: rgb(121,106,83, 0.75);
+  text-shadow: 0 0 .5rem black;  
+  transition: all 0.7s ease-in-out;
+  cursor: pointer; 
+}
+
+.key:hover {
+  background: rgb(121,106,83, 0.9);
+  box-shadow: 0 0 0.7rem var(--accent-color);
+}
+
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 1.5rem var(--accent-color);
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: var(--accent-color);    
+}

@@ -5,15 +5,19 @@
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Raleway:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">  
       <title>Zoo sounds</title>
       <link rel="icon" href="favicon.ico">
     </head>
     <body>
       <div class="keys">       
-        <button data-key="87" class="key">
+        <div data-key="87" class="key">
           <kbd>W</kbd>
           <span class="sound">Woodpecker</span>
-        </button>            
+        </div>            
         <div data-key="69" class="key">
           <kbd>E</kbd>
           <span class="sound">Elefant</span>
@@ -139,5 +143,6 @@
       <audio data-key="89" src="sounds/yak.mp3"></audio>
       <audio data-key="90" src="sounds/zebra.mp3"></audio>
 
+      <script src="index.js"></script>
     </body>
 </html>

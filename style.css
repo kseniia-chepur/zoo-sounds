@@ -10,7 +10,7 @@ body {
   margin: 2.5rem auto;
   padding: 0;
   font-family: 'Bree Serif', serif; 
-  background: url('images/bg.jpg') 0 0;
+  background: url('images/bg.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -22,15 +22,14 @@ body {
 }
 
 .key {
-  font-size: 1.5rem;
-  border-radius: .6rem;
   margin: 1rem; 
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
   width: 10rem;
+  border-radius: 0.6rem;
   text-align: center;
   color: white;
   background: rgb(121,106,83, 0.75);
-  text-shadow: 0 0 .5rem black;  
+  text-shadow: 0 0 0.5rem black;  
   transition: all 0.7s ease-in-out;
   cursor: pointer; 
 }
@@ -55,4 +54,21 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: var(--accent-color);    
+}
+
+@media (max-width: 1024px) {
+  .key {
+    width: 5rem;
+    margin: 0.3rem;
+    padding: 0.5rem;
+  }
+
+  kbd {
+    font-size: 2rem;
+  }
+
+  .sound {
+    font-size: 0.75rem;
+    letter-spacing: 0;
+  }
 }

@@ -1,1 +1,1 @@
-Funny adaption of the 1st challenge from [30 Day Vanilla JS Coding Challenge](https://javascript30.com/)
+Funny adaptation of the 1st challenge from [30 Day Vanilla JS Coding Challenge](https://javascript30.com/)
